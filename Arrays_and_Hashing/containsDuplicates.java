@@ -56,7 +56,7 @@ Constraints:
         // Therefore, by iterating through the array and adding each element to the set, 
         // we'll be returned a false flag, and the element will not be added.
         // Once the false flag is thrown by the hashSet, we can set our return as such. 
-        HashSet<Integer> foundDup = new HashSet<Integer>();
+        Set<Integer> foundDup = new HashSet<Integer>();
 
         // handle null-case
         if(nums.length == 0){
